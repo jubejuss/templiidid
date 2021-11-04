@@ -1,0 +1,19 @@
+{
+  "name": "templating_w_pug",
+  "version": "1.0.0",
+  "description": "[Juhend](https://blog.logrocket.com/top-express-js-template-engines-for-dynamic-html-pages/)",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "nodemon": "^2.0.14",
+    "pug": "^3.0.2"
+  }
+}

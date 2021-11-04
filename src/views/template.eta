@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<%~ includeFile('./partials/head', it) %>
+<%~ includeFile('./partials/nav') %>
+
+    <div class="container">
+        My favorite template engine is <%= it.favorite %> because it is: <%= it.reasons.join(', ') %>
+    </div>
+
+<%~ includeFile('./partials/footer', it) %>

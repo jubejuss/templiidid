@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html lang="en">
+<%~ includeFile('./partials/head', it) %>
+<%~ includeFile('./partials/nav') %>
+This is about page <%= it.favorite %> because it is: <%= it.reasons.join(', ') %>
+
+<%~ includeFile('./partials/footer', it) %>
